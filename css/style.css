@@ -1,4 +1,23 @@
+/*Variables*/
+/*General*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 4.75rem;
+  color: #141414; }
+  h1 span {
+    display: block;
+    border-bottom: 2.25rem solid #F1FF9D;
+    outline: 0px;
+    outline-offset: 0px;
+    height: 5.75rem; }
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem; }
