@@ -11,6 +11,16 @@ html {
 body {
   background-image: url("../img/background.svg");
   position: absolute; }
+  body h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #141414; }
+  body h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #141414; }
   body p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -43,3 +53,27 @@ body {
     .hero button:hover {
       color: #fff;
       background-color: #141414; }
+
+.projects .card {
+  border: none;
+  padding: 0; }
+
+.projects .card-body {
+  padding: 0; }
+  .projects .card-body p {
+    font-size: 0.75rem; }
+  .projects .card-body span {
+    background-color: #C4E1FC;
+    color: #141414;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400; }
+  .projects .card-body a {
+    display: block;
+    text-decoration: none;
+    color: #141414;
+    background-color: #fafafa;
+    padding: 8px 16px;
+    border-radius: 16px; }
+    .projects .card-body a:hover {
+      background-color: #F1FF9D; }
