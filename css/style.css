@@ -5,19 +5,41 @@
   padding: 0;
   box-sizing: border-box; }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 900;
-  font-size: 4.75rem;
-  color: #141414; }
-  h1 span {
-    display: block;
+html {
+  font-size: calc(15px + 0.390625vw); }
+
+body {
+  background-image: url("../img/background.svg");
+  position: absolute; }
+  body p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #8c8c8c; }
+
+.hero {
+  height: 80vh; }
+  .hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #141414; }
+  .hero span {
+    display: inline-block;
     border-bottom: 2.25rem solid #F1FF9D;
     outline: 0px;
     outline-offset: 0px;
-    height: 5.75rem; }
-
-p {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem; }
+    height: 4.75rem; }
+  .hero button {
+    color: #141414;
+    background-color: #F1FF9D;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    padding: 16px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+    border: none; }
+    .hero button:hover {
+      color: #fff;
+      background-color: #141414; }
