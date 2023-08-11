@@ -74,7 +74,10 @@ body {
 
 .projects .card {
   border: none;
-  padding: 0; }
+  padding: 0 8px; }
+
+.projects .card-img-top {
+  border-radius: 0; }
 
 .projects .card-body {
   padding: 0; }

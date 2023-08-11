@@ -108,7 +108,10 @@ body{
 .projects {
     .card{
         border: none;
-        padding: 0;
+        padding: 0 8px;
+    }
+    .card-img-top{
+        border-radius: 0;
     }
     .card-body{
         padding: 0;
