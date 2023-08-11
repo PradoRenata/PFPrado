@@ -1,0 +1,118 @@
+/*Variables*/
+$color-pepe-yellow: #F1FF9D;
+$color-pepe-green: #ECF7CC;
+$color-pepe-orange:#F8D5A6;
+$color-pepe-purple: #E7E4F9;
+$color-pepe-blue:#C4E1FC;
+
+$color-no-black:#141414;
+$color-no-gray:#8c8c8c;
+$color-no-light-gray:#fafafa;
+$color-white:#fff;
+
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body{
+    background-image: url("../img/background.svg") ;
+    position: absolute;
+
+    h2 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: $color-no-black;
+    }
+
+    h5 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: $color-no-black;
+    }
+
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: $color-no-gray;
+    }
+}
+
+.hero{
+    height: 80vh;
+    
+    h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 900;
+        font-size: 3.5rem;
+        color: $color-no-black;       
+        }
+    
+        span {
+            display: inline-block;
+            border-bottom: 2.25rem solid $color-pepe-yellow;
+            outline: 0px;
+            outline-offset: 0px;
+            height: 4.75rem;
+        }
+
+    button{
+        color: $color-no-black;
+        background-color: $color-pepe-yellow;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1.125rem ;
+        padding: 16px;
+        border-radius: 32px;
+        box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+        border: none;
+
+        &:hover{
+            color: $color-white;
+            background-color: $color-no-black;
+        }
+    }
+}
+
+.projects {
+    .card{
+        border: none;
+        padding: 0;
+    }
+    .card-body{
+        padding: 0;
+        
+        p{
+            font-size: 0.75rem;
+        }
+        span{
+                background-color: $color-pepe-blue;
+                color: $color-no-black;
+                font-family: 'Poppins', sans-serif;
+                font-size: 0.75rem;
+                font-weight: 400;
+
+        }
+        a{
+            display: block;
+            text-decoration: none;
+            color: $color-no-black;
+            background-color: $color-no-light-gray;
+            padding: 8px 16px;
+            border-radius: 16px;
+
+            &:hover{
+                background-color: $color-pepe-yellow;
+            }
+        }
+    }
+}

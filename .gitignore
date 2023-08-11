@@ -4,6 +4,3 @@ node_modules
 #ignora packages
 package.json
 package-lock.json
-
-#ignora scss
-scss
