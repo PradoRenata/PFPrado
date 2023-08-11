@@ -52,7 +52,7 @@ body {
     font-weight: 900;
     font-size: 3.5rem;
     color: #141414; }
-  .hero span {
+  .hero .line-bottom {
     display: inline-block;
     border-bottom: 2.25rem solid #F1FF9D;
     outline: 0px;

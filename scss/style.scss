@@ -67,7 +67,6 @@ body{
         font-size: 0.75rem;
         font-weight: 400;
     }
-
 }
 
 .hero{
@@ -80,7 +79,7 @@ body{
         color: $color-no-black;       
         }
     
-        span {
+        .line-bottom {
             display: inline-block;
             border-bottom: 2.25rem solid $color-pepe-yellow;
             outline: 0px;
