@@ -10,6 +10,7 @@ html {
 
 body {
   background-image: url("../img/background.svg");
+  background-repeat: no-repeat;
   position: absolute; }
   body h2 {
     font-family: 'Poppins', sans-serif;
@@ -45,32 +46,43 @@ body {
     font-size: 0.75rem;
     font-weight: 400; }
 
-.hero {
-  height: 80vh; }
-  .hero h1 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
-    font-size: 3.5rem;
-    color: #141414; }
-  .hero .line-bottom {
-    display: inline-block;
-    border-bottom: 2.25rem solid #F1FF9D;
-    outline: 0px;
-    outline-offset: 0px;
-    height: 4.75rem; }
-  .hero button {
-    color: #141414;
-    background-color: #F1FF9D;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 1.125rem;
-    padding: 12px 16px;
-    border-radius: 32px;
-    box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
-    border: none; }
-    .hero button:hover {
-      color: #fff;
-      background-color: #141414; }
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+.hero .hero-img {
+  height: 80vh;
+  width: auto; }
+
+.hero h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #141414; }
+
+.hero .line-bottom {
+  display: inline-block;
+  border-bottom: 2.25rem solid #F1FF9D;
+  outline: 0px;
+  outline-offset: 0px;
+  height: 4.75rem; }
+
+.hero button {
+  color: #141414;
+  background-color: #F1FF9D;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding: 12px 16px;
+  border-radius: 32px;
+  box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+  border: none; }
+  .hero button:hover {
+    color: #fff;
+    background-color: #141414; }
 
 .projects .card {
   border: none;
@@ -97,6 +109,41 @@ body {
     .projects .card-body a:hover {
       background-color: #F1FF9D; }
 
+.experience button {
+  color: #141414;
+  background-color: #ECF7CC;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  padding: 12px 16px;
+  border-radius: 32px;
+  box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+  border: none; }
+  .experience button:hover {
+    color: #fff;
+    background-color: #141414; }
+
+.contact {
+  width: auto; }
+  .contact .contact-box {
+    background-color: #E7E4F9; }
+  .contact button {
+    color: #fff;
+    background-color: #141414;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 12px 16px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+    border: none;
+    width: 260px; }
+
+footer {
+  width: auto;
+  background-color: #141414;
+  color: #fff; }
+
 @media (max-width: 1024px) {
   .hero h1 {
     font-size: 2.75rem; }
@@ -109,4 +156,6 @@ body {
     font-size: 2.25rem; }
     .hero h1 .line-bottom {
       border-bottom: 1.25rem solid #F1FF9D;
-      height: 2.75rem; } }
+      height: 2.75rem; }
+  footer {
+    text-align: center; } }
