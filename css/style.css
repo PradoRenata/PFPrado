@@ -10,8 +10,7 @@ html {
 
 body {
   background-image: url("../img/background.svg");
-  background-repeat: no-repeat;
-  position: absolute; }
+  background-repeat: no-repeat; }
   body h2 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -75,7 +74,7 @@ body {
   background-color: #F1FF9D;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 0.75rem;
   padding: 12px 16px;
   border-radius: 32px;
   box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
@@ -114,7 +113,7 @@ body {
   background-color: #ECF7CC;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 0.75rem;
   padding: 12px 16px;
   border-radius: 32px;
   box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
@@ -132,12 +131,39 @@ body {
     background-color: #141414;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.75rem;
     padding: 12px 16px;
     border-radius: 32px;
     box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
     border: none;
     width: 260px; }
+
+/*Flexbox*/
+.pepe_container {
+  display: flex;
+  height: 90vh;
+  padding: 80px 32px;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center; }
+  .pepe_container .pepe_content {
+    width: 50%; }
+  .pepe_container .pepe_content_form {
+    width: 40%; }
+    .pepe_container .pepe_content_form button {
+      color: #141414;
+      background-color: #ECF7CC;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 400;
+      font-size: 0.75rem;
+      padding: 12px 16px;
+      border-radius: 32px;
+      box-shadow: 0px 24px 48px 6px #E5E5E5, 0px 12px 24px 6px #F0F0F0;
+      border: none; }
+      .pepe_container .pepe_content_form button:hover {
+        color: #fff;
+        background-color: #141414; }
 
 footer {
   width: auto;
@@ -158,4 +184,15 @@ footer {
       border-bottom: 1.25rem solid #F1FF9D;
       height: 2.75rem; }
   footer {
-    text-align: center; } }
+    text-align: center; }
+  .pepe_container {
+    flex-direction: column;
+    margin: 32px 0;
+    padding: 56px 24px; }
+    .pepe_container .pepe_content {
+      width: 100%;
+      text-align: center; }
+    .pepe_container .pepe_content_form {
+      width: 100%;
+      padding-top: 32px;
+      text-align: center; } }
