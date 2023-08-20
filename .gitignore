@@ -1,6 +1,5 @@
 #ignora node modules
 node_modules
 
-#ignora packages
-package.json
-package-lock.json
+#ignora archivos de Mac
+DS_Store
