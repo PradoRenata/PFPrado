@@ -7,14 +7,14 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="css/style.css" />
         <title>Portafolio Profesional - Renata Prado</title>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg">
+            <nav class="pepe_navbar navbar navbar-expand-lg">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -22,19 +22,19 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul class="navbar-nav">
                             <li class="nav-item px-4">
-                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                                <a class="nav-link button_pepe_link pepe_content-40 button_pepe_link-active active" aria-current="page" href="index.html">Inicio</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="./pages/projects.html">Proyectos</a>
+                                <a class="nav-link button_pepe_link" href="./pages/projects.html">Proyectos</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="./pages/about.html">Sobre Mi</a>
+                                <a class="nav-link button_pepe_link" href="./pages/about.html">Sobre Mi</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="./pages/experiencie.html">Experiencia</a>
+                                <a class="nav-link button_pepe_link" href="./pages/experiencie.html">Experiencia</a>
                             </li>
                             <li class="nav-item px-4">
-                                <a class="nav-link" href="./pages/contact.html">Contacto</a>
+                                <a class="nav-link button_pepe_link" href="./pages/contact.html">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -43,89 +43,80 @@
         </header>
 
         <main>
-            <section class="container-fluid hero my-5">
-                <div class="row justify-content-around align-items-center py-4">
-                    <div class="col-lg-6 col-sm-12 align-self-center py-4">
-                        <h1>Portafolio profesional de <span class="line-bottom">Diseño y Front</span></h1>
-                        <p>Hola, soy Renata y me dedico a crear productos con experiencias únicas dentro de espacios digitales.</p>
-                        <button type="button">Descargar CV</button>
-                    </div>
-                    <img class="hero-img ol-lg-4 col-sm-12" src="img/profile-picture.png" alt="profile-picture"/>
+            <section class="hero_section pepe_container">
+                <div class="pepe_content-50">
+                    <h1 class="animate__animated animate__fadeInLeft">Portafolio profesional de <span class="line-bottom">Diseño y Front-end</span></h1>
+                    <p>Hola, soy Renata y me dedico a crear productos con experiencias únicas dentro de espacios digitales.</p>
+                    <button type="button" class="button_pepe_yellow">Descargar CV</button>
                 </div>
+                <img class="hero_img pepe_content-40" src="img/profile-picture.png" alt="profile-picture"/>
+                <img src="img/background.svg" class="hero_background" alt="background">
             </section>
 
-            <section class="container-fluid projects my-5">
+            <section class="container-fluid projects_section my-2">
                 <div class="text-center my-2">
                     <h2>Proyectos Destacados</h2>
                     <p>Acá encontrarás mis mejores trabajos y podrás navegar por todo el proceso.</p>
                 </div>
-                <div class="row my-5 mx-2 g-5">
-                    <article class="card col-lg-4 col-sm-12">
-                        <img src="./img/project_1.png" class="card-img-top" alt="oyeme" />
-                        <div class="card-body p-2">
+                <div class="row my-1 mx-2 g-5">
+                    <article class="card project_card col-lg-4 col-sm-12 animate__animated animate__zoomIn animate__faster">
+                        <img src="./img/project_1.png" class="card-img-top project_card_img" alt="oyeme" />
+                        <div class="card-body project_card_body p-2">
                             <h5 class="card-title">Oyeme</h5>
-                            <p class="card-text">Diseño en base a una problemática social. Herramienta de contención remota para situaciones de violencia virtual.</p>
                             <span class="badge badge-app">app</span>
                             <span class="badge badge-uiux">ux/ui</span>
-                            <a href="#" class="my-2 text-center">Ver más</a>
+                            <p class="card-text py-2">Diseño en base a una problemática social. Herramienta de contención remota para situaciones de violencia virtual.</p>
+                            <a href="#" class="button_pepe_link">Ver más &#8250;</a>
                         </div>
                     </article>
-                    <article class="card col-lg-4 col-sm-12">
-                        <img src="./img/project_2.png" class="card-img-top" alt="mi huella" />
-                        <div class="card-body p-2">
+                    <article class="card project_card col-lg-4 col-sm-12 animate__animated animate__zoomIn animate__fast">
+                        <img src="./img/project_2.png" class="card-img-top project_card_img" alt="mi huella" />
+                        <div class="card-body project_card_body p-2">
                             <h5 class="card-title">MiHuella</h5>
-                            <p class="card-text">Aplicación mobile de trazabilidad ecológica, en donde el objetivo es acercar a los usuarios a promociones relacionadas al orden sostenible.</p>
                             <span class="badge badge-app">app</span>
                             <span class="badge badge-landing">landing page</span>
                             <span class="badge badge-uiux">ux/ui</span>
-                            <a href="#" class="my-2 text-center">Ver más</a>
+                            <p class="card-text py-2">Aplicación mobile de trazabilidad ecológica, en donde el objetivo es acercar a los usuarios a promociones relacionadas al orden sostenible.</p>
+                            <a href="#" class="button_pepe_link">Ver más &#8250;</a>
                         </div>
                     </article>
-                    <article class="card col-lg-4 col-sm-12">
-                        <img src="./img/project_3.png" class="card-img-top" alt="heal me" />
-                        <div class="card-body p-2">
+                    <article class="card project_card col-lg-4 col-sm-12 animate__animated animate__zoomIn">
+                        <img src="./img/project_3.png" class="card-img-top project_card_img" alt="heal me" />
+                        <div class="card-body project_card_body p-2">
                             <h5 class="card-title">Heal Me</h5>
-                            <p class="card-text">Diseño de página web informativa sobre un producto para dispositivos móviles relacionado a la toma de horas para atenciones de salud.</p>
                             <span class="badge badge-landing">landing page</span>
                             <span class="badge badge-uiux">ux/ui</span>
-                            <a href="#" class="my-2 text-center">Ver más</a>
+                            <p class="card-text py-2">Diseño de página web informativa sobre un producto para dispositivos móviles relacionado a la toma de horas para atenciones de salud.</p>
+                            <a href="#" class="button_pepe_link">Ver más &#8250;</a>
                         </div>
                     </article>
                 </div>
             </section>
 
-            <section class="container-fluid experience">
-                <div class="row align-items-center px-4">
-                    <div class="col-lg-6 col-sm-12">
-                        <h2>Breve descripción sobre metodologías y herramientas utilizadas</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur. Vivamus suscipit amet tristique mauris libero platea platea id. Etiam in consectetur.</p>
-                        <button type="button">Saber más</button>
-                    </div>
-                    <img class="img-experience col-lg-6 col-sm-12" src="img/logos.png" alt="herramientas">
+            <section class="experience_section pepe_container">
+                 <div class="pepe_content-50">
+                        <h2>Cuento con amplia experiencia en herramientas de diseño y procesos proyectuales</h2>
+                        <p>Siempre estoy en busca de nuevos métodos y recursos, adecuándome a las necesidades de cada proyecto.</p>
+                        <button type="button" class="button_pepe_green">Saber más</button>
                 </div>
+                <img class="pepe_content-40 experience_img animate__animated animate__pulse animate__repeat-2" src="img/logos.png" alt="herramientas">
             </section>
 
-            <section class="container-fluid contact m-5 g-4">
-                <div class="row contact-box align-items-center p-5">
-                    <div class="col-lg-6 col-sm-12">
-                        <h3>Ponte en contacto y hablemos de tu idea</h3>
-                    </div>
-                    <div class="col-lg-6 col-sm-12 text-center">
-                        <button type="button">Contáctame</button>
-                    </div>
+            <section class="contact_section">
+                <div class="pepe_container contact_box">
+                    <h2 class="pepe_content-50">Ponte en contacto y hablemos de tu idea</h2>
+                    <button type="button" class="pepe_content-40 button_pepe_no_black">Contáctame</button>
                 </div>
             </section>
         </main>
 
-        <footer class="px-5 py-3 row">
-            <div class="col-lg-8 col-sm-12">
-                <p>Portafolio Profesional -Renata Prado</p>
-            </div>
-            <div class="col-lg-4 col-sm-12 text-center">
-                <i class="fa-brands fa-github px-2"></i>
-                <i class="fa-brands fa-behance px-2"></i>
-                <i class="fa-brands fa-linkedin px-2"></i>
-            </div>
+        <footer class="pepe_container">
+            <h6>Portafolio Profesional -Renata Prado</h6>
+            <ul class="footer_rrss">
+                <li><a href="https://github.com/PradoRenata"><i class="fa-brands fa-github px-2"></i></a></li>
+                <li><a href="https://www.behance.net/pradovrenata"><i class="fa-brands fa-behance px-2"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/pradov-renata/"><i class="fa-brands fa-linkedin px-2"></i></a></li>
+            </ul>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
