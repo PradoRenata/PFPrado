@@ -207,8 +207,14 @@ footer {
 
 /*Contact  - PAGE*/
 .hero_contact {
-  height: 90vh;
+  height: 95vh;
   padding: 0 32px; }
+  .hero_contact .hero_contact_background {
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1; }
 
 .contact_form {
   width: 40%; }
