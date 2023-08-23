@@ -52,6 +52,15 @@ body{
         color: $color-no-black;
     }
 
+    h6 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: $color-no-black;
+        padding-top: 1rem;
+        text-align: center;
+    }
+
     p{
         font-family: 'Poppins', sans-serif;
         font-weight: 400;
@@ -169,7 +178,11 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: nowrap;
-    align-items: center;
+    align-items: center; 
+
+    .pepe_content-60{
+        width: 60%;
+    }
 
     .pepe_content-50{
         width: 50%;
@@ -178,7 +191,12 @@ footer {
     .pepe_content-40{
         width: 40%;
     }
+
+    .pepe_content-30{
+        width: 30%;
+    }
 }
+
 
 /*Index - PAGE*/
 .hero_section{
@@ -291,6 +309,30 @@ footer {
         padding-left: 0.5rem;
     }
 }
+/*Experience - PAGE*/
+.hero_experience{
+    margin: 4rem 2rem;
+    padding: 1rem 2rem;
+    .experience_title{
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .pepe_container{
+        align-items: start;
+    }
+    .experience_subtitle{
+        position: sticky;
+        top: 80px;
+    }
+
+    .badge{
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    .experience_img{
+        padding-right: 0.5rem;
+    }
+}
 
 /*Contact  - PAGE*/
 .hero_contact{
@@ -341,6 +383,11 @@ footer {
     .pepe_container{
         flex-direction: column;
         
+        .pepe_content-60{
+            width: 100%;
+            height: auto;
+        }
+
         .pepe_content-50{
             width: 100%;
             text-align: center;
@@ -350,7 +397,21 @@ footer {
             width: 100%;
             height: auto;
         }
+
+        .pepe_content-30{
+            width: 100%;
+            height: auto;
+        }
     }
+
+    /*Experience - PAGE*/
+    .hero_experience{
+        .experience_subtitle{
+            position: initial;   
+
+        }
+    }  
+
     /*Contact - PAGE*/
     .hero_contact{
         height: auto;
@@ -392,6 +453,10 @@ footer {
         .button_pepe_no_black{
             width: 100%;
         }
+    }
+    /*Experience - PAGE*/
+    .hero_experience{
+        margin: 3rem 0;
     }
     /*About - PAGE*/
     .hero_about{

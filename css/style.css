@@ -33,6 +33,14 @@ body h5 {
   font-size: 1.25rem;
   color: #141414; }
 
+body h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #141414;
+  padding-top: 1rem;
+  text-align: center; }
+
 body p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -138,10 +146,14 @@ footer {
   justify-content: space-between;
   flex-wrap: nowrap;
   align-items: center; }
+  .pepe_container .pepe_content-60 {
+    width: 60%; }
   .pepe_container .pepe_content-50 {
     width: 50%; }
   .pepe_container .pepe_content-40 {
     width: 40%; }
+  .pepe_container .pepe_content-30 {
+    width: 30%; }
 
 /*Index - PAGE*/
 .hero_section {
@@ -234,6 +246,24 @@ footer {
   display: inline-block;
   padding-left: 0.5rem; }
 
+/*Experience - PAGE*/
+.hero_experience {
+  margin: 4rem 2rem;
+  padding: 1rem 2rem; }
+  .hero_experience .experience_title {
+    text-align: center;
+    margin-bottom: 2rem; }
+  .hero_experience .pepe_container {
+    align-items: start; }
+  .hero_experience .experience_subtitle {
+    position: sticky;
+    top: 80px; }
+  .hero_experience .badge {
+    display: block;
+    margin-bottom: 0.5rem; }
+  .hero_experience .experience_img {
+    padding-right: 0.5rem; }
+
 /*Contact  - PAGE*/
 .hero_contact {
   height: 95vh;
@@ -272,6 +302,9 @@ footer {
   /*Flexbox*/
   .pepe_container {
     flex-direction: column; }
+    .pepe_container .pepe_content-60 {
+      width: 100%;
+      height: auto; }
     .pepe_container .pepe_content-50 {
       width: 100%;
       text-align: center;
@@ -279,6 +312,12 @@ footer {
     .pepe_container .pepe_content-40 {
       width: 100%;
       height: auto; }
+    .pepe_container .pepe_content-30 {
+      width: 100%;
+      height: auto; }
+  /*Experience - PAGE*/
+  .hero_experience .experience_subtitle {
+    position: initial; }
   /*Contact - PAGE*/
   .hero_contact {
     height: auto;
@@ -306,6 +345,9 @@ footer {
     margin: 1rem; }
   .contact_section .button_pepe_no_black {
     width: 100%; }
+  /*Experience - PAGE*/
+  .hero_experience {
+    margin: 3rem 0; }
   /*About - PAGE*/
   .hero_about {
     margin: 3rem 2rem;
