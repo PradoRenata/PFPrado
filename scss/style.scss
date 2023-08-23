@@ -255,6 +255,42 @@ footer {
         }
     }
 }
+/*About - PAGE*/
+.hero_about{
+    margin: 4rem 2rem;
+    padding: 1rem 2rem;
+    .about_picture{
+        width: 150px;
+        padding-bottom: 1rem;
+    }
+    .hero_about_background{
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+.about_skills {
+    .row_skills{
+        justify-content: center;
+    }
+    .skills_card{
+        border: none;
+        &:hover{
+            h5, i{
+                color: $color-pepe-orange;
+            }
+        }
+    }
+    .skills_card_body{
+        padding: 0;
+    }
+    h5{
+        display: inline-block;
+        padding-left: 0.5rem;
+    }
+}
 
 /*Contact  - PAGE*/
 .hero_contact{
@@ -357,4 +393,10 @@ footer {
             width: 100%;
         }
     }
+    /*About - PAGE*/
+    .hero_about{
+        margin: 3rem 2rem;
+        padding: 1rem;
+    }
+    
 }
