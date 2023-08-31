@@ -115,9 +115,15 @@ body .badge-uiux {
 
 .button_pepe_link {
   color: #141414;
+  background-color: none;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
+  padding: 12px 16px;
+  border-radius: 32px;
+  border: none;
+  color: #141414;
+  border-radius: 0;
   padding: 12px 0;
   text-decoration: none; }
   .button_pepe_link:hover {
@@ -138,6 +144,19 @@ footer {
       color: inherit; }
       footer .footer_rrss a:hover {
         color: #F1FF9D; }
+
+/*Reseteo bootstrap Componentes*/
+.navbar-toggler {
+  border: none; }
+  .navbar-toggler:focus {
+    box-shadow: none; }
+
+.accordion-button:focus {
+  box-shadow: none;
+  background-color: #fff; }
+
+.accordion-button:active {
+  background-color: #ECF7CC; }
 
 /*Flexbox*/
 .pepe_container {
@@ -225,7 +244,7 @@ footer {
     width: 150px;
     padding-bottom: 1rem; }
   .hero_about .hero_about_background {
-    width: 90%;
+    width: 80%;
     position: absolute;
     top: 0;
     left: 0;
@@ -315,6 +334,11 @@ footer {
     .pepe_container .pepe_content-30 {
       width: 100%;
       height: auto; }
+  /*About - PAGE*/
+  .hero_about {
+    margin: 3rem 0; }
+  .hero_about_background {
+    display: none; }
   /*Experience - PAGE*/
   .hero_experience .experience_subtitle {
     position: initial; }
@@ -350,5 +374,5 @@ footer {
     margin: 3rem 0; }
   /*About - PAGE*/
   .hero_about {
-    margin: 3rem 2rem;
+    margin: 3rem 1rem;
     padding: 1rem; } }
